@@ -1,0 +1,408 @@
+{
+  "spider": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/vox.jar",
+  "warningText": "禁止任何商业用途，仅限个人学习爬虫原理使用。",
+  "logo": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/1.gif",
+  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "lives": [
+    {
+      "name": "📲洪宇一起看3",
+      "type": 0,
+      "url": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/yqk3.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "📲洪宇Gather.网络直播",
+      "type": 0,
+      "url": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/Live.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "sites": [
+
+        {
+            "key": "采集之王",
+            "name": "📲洪宇采集┃之王",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 1,
+            "ext": "./lib/采集之王.js?type=url&params=../json/采集.json"
+        },
+
+    {
+      "key": "本地",
+      "name": "📲洪宇本地┃文件",
+      "type": 3,
+      "api": "csp_Local",
+      "searchable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "直播转点播",
+      "name": "📲洪宇电视┃直播",
+      "type": 3,
+      "searchable": 0,
+      "api": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/live2vod.js",
+      "ext": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/feimaolive.json"
+    },
+
+
+    {
+      "key": "csp_Jianpian",
+      "name": "📲洪宇荐片┃VOX",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "filters": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/jianpian.json",
+        "sites": "https://api.ztcgi.com"
+      }
+    },
+    {
+      "key": "csp_Guazi",
+      "name": "📲洪宇瓜子┃优质",
+      "type": 3,
+      "api": "csp_Guazi",
+      "searchable": 1,
+      "changeable": 1
+    },
+
+    {
+      "key": "金牌影院",
+      "name": "📲洪宇金牌┃APP",
+      "type": 3,
+      "api": "csp_AppMuou",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "host": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/godbbq.txt",
+        "name": "📲洪宇金牌影院（请断网再安装）",
+        "version": "4.2.0"
+      }
+    },
+
+    {
+      "key": "海狗视频",
+      "name": "📲洪宇海狗┃视频",
+      "type": 3,
+      "api": "csp_Hmys",
+      "changeable": 0,
+      "ext": {
+        "host": "https://dy.stxbed.com",
+        "app_id": "shiguang",
+        "deviceid": "6b3927d7bbd112d6",
+        "versionCode": "20000",
+        "UMENG_CHANNEL": "guan"
+      }
+    },
+    {
+      "key": "狐狸磁力",
+      "name": "📲洪宇狐狸┃磁力",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/狐狸磁力.json",
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/xbpq.jar"
+    },
+    {
+      "key": "厂长资源",
+      "name": "📲洪宇厂长┃资源",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/厂长资源.json",
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/xbpq.jar"
+    },
+    {
+      "key": "秀儿影视",
+      "name": "📲洪宇秀儿┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/秀儿影视.json",
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/xbpq.jar"
+    },
+    {
+      "key": "80S电影",
+      "name": "📲洪宇80┃电影",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/80S电影.json",
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/xbpq.jar"
+    },
+    {
+      "key": "韩剧看看",
+      "name": "📲洪宇韩剧┃看看",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/韩剧看看.json",
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/xbpq.jar"
+    },
+    {
+      "key": "韩剧TV",
+      "name": "📲洪宇韩剧┃TV",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/韩剧TV.json",
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/xbpq.jar"
+    },
+    {
+      "key": "麦田APP",
+      "name": "📲洪宇麦田┃APP",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/麦田APP.json",
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/xbpq.jar"
+    },
+
+    {
+      "key": "py_4K影院",
+      "name": "📲洪宇4K┃影院",
+      "api": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/4K影院.py",
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
+    {
+      "key": "py_饭团PY",
+      "name": "📲洪宇饭团┃PY",
+      "api": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/饭团影视.py",
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
+    {
+      "key": "py_两个BTPY",
+      "name": "📲洪宇两个┃BT",
+      "api": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/两个BT.py",
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
+
+    {
+      "key": "csp_Bili",
+      "name": "📲洪宇🅱️哔哩┃合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "playerType": 2,
+      "ext": {
+        "json": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/bili.json",
+        "cookie": ""
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "csp_Biliyy",
+      "name": "📲洪宇🅱️哔哩┃音乐",
+      "type": 3,
+      "api": "csp_Bili",
+      "playerType": 2,
+      "ext": {
+        "json": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/biliyy.json",
+        "cookie": ""
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "csp_mtv",
+      "name": "📲洪宇🅱️MV┃音乐",
+      "type": 3,
+      "api": "csp_Bili",
+      "playerType": 2,
+      "ext": {
+        "json": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/mtv.json",
+        "cookie": ""
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+
+    {
+      "api": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/YYMP3音乐网.py",
+      "filterable": 1,
+      "key": "py_YYMP3音乐网",
+      "name": "📲洪宇音乐┃PY",
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
+    {
+      "key": "csp_Jzb",
+      "name": "📲洪宇看球┃体育",
+      "type": 3,
+      "api": "csp_Jzb",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": {
+        "sites": ""
+      }
+    },
+    {
+      "key": "csp_ShuaiJiao",
+      "name": "📲洪宇摔跤┃体育",
+      "type": 3,
+      "api": "csp_ShuaiJiao",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": {
+        "sites": ""
+      }
+    },
+
+
+        {
+            "key": "csp_YHDM",
+            "name": "📲洪宇樱花┃动漫",
+            "type": 3,
+            "api": "csp_YHDM",
+            "searchable": 0,
+            "changeable": 0
+        },
+    {
+      "key": "商店",
+      "name": "📲洪宇商店┃更新",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/lib/market.json"
+    }
+
+  ],
+  "doh": [
+    {
+      "name": "洪宇的Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "洪宇的Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "洪宇的AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "洪宇的DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "洪宇的Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    }
+  ],
+  "proxy": [
+    "raw.githubusercontent.com",
+    "googlevideo.com",
+    "googleapis.com",
+    "youtube.com"
+  ],
+  "rules": [
+    {
+      "name": "洪宇的火山嗅探",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "洪宇的抖音嗅探",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "洪宇的農民嗅探",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "洪宇的七新嗅探",
+      "hosts": [
+        "api.52wyb.com"
+      ],
+      "regex": [
+        "m3u8?pt=m3u8"
+      ]
+    },
+    {
+      "name": "洪宇的毛驢點擊",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "洪宇的Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "洪宇的Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "洪宇的自定义解析名称",
+      "type": 1,
+      "url": "自定义解析链接"
+    }
+  ],
+  "headers": [],
+  "hosts": [],
+  "ads": [
+    "static-mozai.4gtv.tv",
+    "s3t3d2y8.afcdn.net"
+  ]
+}
