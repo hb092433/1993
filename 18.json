@@ -1,0 +1,275 @@
+{
+  "spider": "./vox.jar",
+  "warningText": "禁止任何商业用途，仅限个人学习爬虫原理使用。",
+  "logo": "./1.gif",
+  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "lives": [
+{"name":"【洪宇网络一起看3】","type":0,"url":"https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvse/yu/refs/heads/yu/yqk3.m3u","ua":"okhttp/3.15,AptvPlayer/1.4.0","logo":"https://epg.v1.mk/logo/{name}.png","playerType":2},        
+    {
+      "name": "本地一起看3",
+      "type": 0,
+      "url": "./lib/yqk3.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "Gather.网络直播",
+      "type": 0,
+      "url": "./lib/Live.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "sites": [
+
+
+
+
+
+        {"jar":"https://daili.korice.eu.org/https://raw.githubusercontent.com/jjjzhy/vvvzhy/refs/heads/yu/0924/1993.jar",
+        "key":"YU_Market",
+        "name":"📢洪宇┃网络应用商店",
+        "type":3,"api":"csp_Market",
+        "searchable":0,
+        "changeable":0,
+        "ext":"https://daili.korice.eu.org/https://raw.githubusercontent.com/jjjzhy/vvvzhy/refs/heads/yu/0924/0924.json"},
+
+        
+    {
+      "key": "csp_XYQHiker_网络虎牙直播",
+      "name": "🎧洪宇┃网络虎牙",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvzhy/xjj/refs/heads/hy/0924/custom_spider.jar;md5;e6f46d10150d782fcb10ef179bab3f47",
+      "ext": "https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvzhy/xjj/refs/heads/hy/0924/网络虎牙直播.json"
+    },
+
+    {
+      "key": "csp_XYQHiker_网络斗鱼直播",
+      "name": "🎧洪宇┃网络斗鱼",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvzhy/xjj/refs/heads/hy/0924/custom_spider.jar;md5;e6f46d10150d782fcb10ef179bab3f47",
+      "ext": "https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvzhy/xjj/refs/heads/hy/0924/网络斗鱼直播.json"
+    },
+
+
+
+    {
+      "key": "py_BadNews",
+      "name": "✨🔞BadNews(洪宇采集)✨",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=BadNews",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {
+      "key": "py_Miss",
+      "name": "✨🔞MissAV(洪宇采集)✨",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=Miss",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_AiDou",
+      "name": "✨🔞AiDou(洪宇采集)✨",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=AiDou",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {
+      "key": "py_MrJav",
+      "name": "✨🔞MRJav(洪宇采集)✨",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=MrJav",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {
+      "key": "py_madou",
+      "name": "✨🔞麻豆(洪宇采集)✨",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=MaDou",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+        {
+            "key": "采集之王",
+            "name": "📡洪宇┃采集之王",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 1,
+            "ext": "./lib/采集之王.js?type=url&params=../json/采集.json"
+        },
+
+    {
+      "key": "商店",
+      "name": "🏪商店┃更新",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./lib/market.json"
+    }
+
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    }
+  ],
+  "proxy": [
+    "raw.githubusercontent.com",
+    "googlevideo.com",
+    "googleapis.com",
+    "youtube.com"
+  ],
+  "rules": [
+    {
+      "name": "火山嗅探",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音嗅探",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "農民嗅探",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "七新嗅探",
+      "hosts": [
+        "api.52wyb.com"
+      ],
+      "regex": [
+        "m3u8?pt=m3u8"
+      ]
+    },
+    {
+      "name": "毛驢點擊",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "自定义解析名称",
+      "type": 1,
+      "url": "自定义解析链接"
+    }
+  ],
+  "headers": [],
+  "hosts": [],
+  "ads": [
+    "static-mozai.4gtv.tv",
+    "s3t3d2y8.afcdn.net"
+  ]
+}
