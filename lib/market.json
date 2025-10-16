@@ -9,12 +9,17 @@
                 "version": "网络正片","icon":"https://daili.korice.eu.org/https://raw.githubusercontent.com/qq859/cj/refs/heads/main/%E5%9B%BE%E7%89%87/HYTV.png","copy":"https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1993/refs/heads/1993/zp.json"
             },
 
+            {
+                "name": "hb092433/1/直播接口",
+                "url": "https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1/refs/heads/1993/1993/hy.json",
 
+                "version": "hb092433/1","icon":"https://daili.korice.eu.org/https://raw.githubusercontent.com/qq859/cj/refs/heads/main/%E5%9B%BE%E7%89%87/HYTV.png","copy":"https://daili.korice.eu.org/https://daili.korice.eu.org/https://raw.githubusercontent.com/hb092433/1/refs/heads/1993/1993/hy.json"
+            },
             {
                 "name": "vvvvzhy/xjj/18接口",
                 "url": "https://daili.korice.eu.org/hhttps://raw.githubusercontent.com/vvvvzhy/xjj/refs/heads/hy/18.json",
 
-                "version": "vvvvzhy/xjj","icon":"https://daili.korice.eu.org/https://raw.githubusercontent.com/qq859/cj/refs/heads/main/%E5%9B%BE%E7%89%87/HYTV.png","copy":"https://daili.korice.eu.org/hhttps://raw.githubusercontent.com/vvvvzhy/xjj/refs/heads/hy/18.json"
+                "version": "vvvvzhy/xjj","icon":"https://daili.korice.eu.org/https://raw.githubusercontent.com/qq859/cj/refs/heads/main/%E5%9B%BE%E7%89%87/HYTV.png","copy":"https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvzhy/xjj/refs/heads/hy/18.json"
             },
 
 
